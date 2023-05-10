@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "/home/*/.config/i3/config": "i3",
-        "/home/*/.config/dunst/dunstrc": "properties",
-        "iostream": "cpp",
-        "cmath": "cpp"
-    }
-}
