@@ -1,1 +1,6 @@
-https://www.codechef.com/PBK72021\?order\=desc\&sortBy\=successful_submissions
+---
+template: codechef
+title: push_back(7)
+link: https://www.codechef.com/PBK72021
+---
+
