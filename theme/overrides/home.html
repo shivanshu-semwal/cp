@@ -1,0 +1,34 @@
+{% extends "main.html" %}
+{% block extrahead %}
+<link rel="stylesheet" href="{{ 'assets/stylesheets/home.css?v=3.3.0' | url }}">
+{{ super() }}
+{% endblock %}
+{% block tabs %}
+{{ super() }}
+<style>
+  .md-content>.md-typeset h1 {
+    visibility: hidden;
+    font-size: 0;
+  }
+
+  .md-button {
+    margin-top: .5rem;
+  }
+</style>
+<section class="mdx-container">
+  <div class="md-grid md-typeset">
+    <div class="mdx-hero">
+      <div class="mdx-hero__content">
+        <h1>Competitive Programming Solutions</h1>
+        <p>Computer science is no more about computers than astronomy is about telescopes.</p>
+        <a href="leetcode/" class="md-button md-button--primary">
+          Explore the Site
+        </a>
+        <a href="software/" class="md-button">
+          Random Page
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
