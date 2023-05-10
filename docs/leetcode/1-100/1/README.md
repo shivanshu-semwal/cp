@@ -8,4 +8,9 @@ tags:
 - hash-table
 ---
 
-now it works
+{% for i in range(1,10) %}
+```cpp
+{% set file = "sol" + i| string() + ".cpp" %}
+{{ include_file(file) }}
+```
+{% endfor %}

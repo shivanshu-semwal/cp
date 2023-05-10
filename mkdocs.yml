@@ -54,5 +54,6 @@ markdown_extensions:
   - meta
 plugins:
   - search
+  - macros
 watch:
   - ./theme
