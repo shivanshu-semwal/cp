@@ -15,6 +15,10 @@
     - small contests - 3 hours
     - and starters
 
-## Other
+## Ratings
 
-- big community
+- have star system
+
+## Tips
+
+- aks questions in community forums, it has a big community so you are more likely to get a answer.

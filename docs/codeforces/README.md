@@ -30,7 +30,7 @@
 - international grandmaster - 2600-3000
 - legendary grandmaster - 3000-inf
 
-- rating distributions - https://codeforces.com/blog/entry/71260
+- rating distributions - <https://codeforces.com/blog/entry/71260>
 
 ## Tips
 
@@ -38,4 +38,3 @@
 - try to make you own test cases
 - as you advance, you can also do stress testing before submitting solutions
 - don't look at rating, it will get into your head
-
