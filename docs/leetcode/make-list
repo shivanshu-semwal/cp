@@ -1,0 +1,11 @@
+#!/bin/bash
+
+FILE="solved.md"
+FOLDERS=$(find . -type d | cut -c3- | sort -n | tail -n +3)
+
+echo -e "# Solutions" > $FILE
+echo -e "" >> $FILE
+
+while IFS= read -r line;do
+  echo "[$line](./$line/README.md) " >> $FILE
+done <<< $FOLDERS
