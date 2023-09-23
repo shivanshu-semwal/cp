@@ -33,10 +33,14 @@ Relation $R$ has following properties:
 
 - Each subproblem in this problem uniquely identified by the index of word, so we only need a single dimensional table to sore result of a state.
 
-{{ include_file(solution.py) }}
+```py
+{{ include_file("solution.py") }}
+```
 
 ### Using a dictionary
 
 - Here a subproblem state is defined by, the length of word and it's index in the list of length of that words. So we need a 2d table.
 
-{{ include_file(solution2.py) }}
+```py
+{{ include_file("solution2.py") }}
+```
