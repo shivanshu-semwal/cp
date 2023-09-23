@@ -1,3 +1,11 @@
+---
+title: List
+search:
+  exclude: true
+---
+
+You can use search option for searching.
+
 Solution | Question | Level
 ---|---|---
 [1](1/README.md) | [Two Sum](https://leetcode.com/problems/two-sum) | Easy
