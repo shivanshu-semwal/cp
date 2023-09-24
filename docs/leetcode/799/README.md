@@ -3,7 +3,8 @@ template: leetcode
 title: Champagne Tower
 number: 799
 link: https://leetcode.com/problems/champagne-tower
-tags: arrays
+tags: 
+    - arrays
 ---
 
 This is simple problem. You do as is described in the problem.
