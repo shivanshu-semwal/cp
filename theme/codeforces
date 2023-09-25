@@ -5,6 +5,7 @@
     {% if page.meta.editorial %}
     <li><b>Editorial: </b> <a href="{{ page.meta.editorial }}">{{ page.meta.editorial }}</a></li>
     {% endif %}
+
     {% if page.meta.tags %}
     <li><b>Tags: </b>
             {% for tag in page.meta.tags %}
