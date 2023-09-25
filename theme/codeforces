@@ -1,9 +1,9 @@
 {% extends "main.html" %}
 {% block content %}
 <ul class="metadata page-metadata">
-    <li><b>Link: </b> <a href="{{ page.meta.link}}">{{ page.meta.link}}</a></li>
+    <li><b>Link: </b> <a href="{{ page.meta.link }}">{{ page.meta.link }}</a></li>
     {% if page.meta.editorial %}
-    <li><b>Editorial: </b> <a href="{{ page.meta.editorial}}">{{ page.meta.editorial}}</a></li>
+    <li><b>Editorial: </b> <a href="{{ page.meta.editorial }}">{{ page.meta.editorial }}</a></li>
     {% endif %}
     {% if page.meta.tags %}
     <li><b>Tags: </b>
